@@ -125,16 +125,17 @@ export function CreateInvoice() {
               <label className="block text-xs text-slate-600 mb-1">Company Name</label>
               <input
                 type="text"
-                value="ABC Enterprises (Pvt) Ltd"
+                value="N.H. TRADERS"
                 readOnly
-                className="w-full px-3 py-2 border border-slate-300 rounded-sm bg-slate-50 text-slate-700 text-sm"
+                className="w-full px-3 py-2 border border-slate-300 rounded-sm bg-slate-50 text-slate-900 text-sm font-bold"
               />
+              <p className="text-[10px] text-slate-500 mt-0.5">DISTRIBUTORS OF HUMAN VETERINARY MEDICINE & MANUFACTURE'S REPRESENTATIVES</p>
             </div>
             <div>
               <label className="block text-xs text-slate-600 mb-1">NTN</label>
               <input
                 type="text"
-                value="1234567-8"
+                value="3667699-9"
                 readOnly
                 className="w-full px-3 py-2 border border-slate-300 rounded-sm bg-slate-50 text-slate-700 text-sm"
               />
@@ -143,7 +144,7 @@ export function CreateInvoice() {
               <label className="block text-xs text-slate-600 mb-1">STRN</label>
               <input
                 type="text"
-                value="32-00-0000-000-00"
+                value="17-00-3667-699-11"
                 readOnly
                 className="w-full px-3 py-2 border border-slate-300 rounded-sm bg-slate-50 text-slate-700 text-sm"
               />
@@ -152,10 +153,11 @@ export function CreateInvoice() {
               <label className="block text-xs text-slate-600 mb-1">Address</label>
               <input
                 type="text"
-                value="123 Business District, Karachi, Pakistan"
+                value="Suite # 437A, 4th Floor, Bhayani Shopping Centre, Block 'M', North Nazimabad, Karachi."
                 readOnly
                 className="w-full px-3 py-2 border border-slate-300 rounded-sm bg-slate-50 text-slate-700 text-sm"
               />
+              <p className="text-[10px] text-slate-500 mt-0.5">Email: nh_traders@yahoo.com | Tel: 3667-6999</p>
             </div>
             <div>
               <label className="block text-xs text-slate-600 mb-1">Origin Province (Seller) *</label>
